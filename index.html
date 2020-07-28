@@ -5,7 +5,10 @@
 
     <meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1, minimum-scale=1" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="default.css">
+    <!-- default theme style -->
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
     <section class="s1">
@@ -34,10 +37,10 @@
                 <h5 style="text-align: center; line-height: 0;">Personalized Theme</h5>
                 
                 <div id="theme-options-wrapper">
-                    <div id="light-mode" class="theme-dot"></div>
-                    <div id="blue-mode" class="theme-dot"></div>
-                    <div id="green-mode" class="theme-dot"></div>
-                    <div id="purple-mode" class="theme-dot"></div>
+                    <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                    <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                    <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                    <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                 </div>
 
                 <p id="settings-note">Theme settings will be saved for<br> your next visit
@@ -134,7 +137,7 @@
                             <h6 class="post-title">Post Title</h6>
                             <p class="post-intro">This is the sentence. 
                                 Some more text</p>
-                            <a href="#">Read more...</a>
+                            <a href="post.html">Read more...</a>
                         </div>    
                     </div>
                 </div>
@@ -186,5 +189,6 @@
         </form>
         </div>
     </section>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
