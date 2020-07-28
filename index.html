@@ -125,13 +125,41 @@
             <h3 style="text-align: center;">Certaines réalisations</h3>
             
             <div class="post-wrapper">
-                <div class="post">
-                    <img src="images/Dennis.jpg" alt="post-img">
-                    <div class="post-preview">
-                        <h6 class="post-title">Post Title</h6>
-                        <p class="post-intro">This is the sentence. 
-                            Some more text</p>
-                    </div>    
+
+                <div>
+                    <!-- Extra div necessary not to have an extra grey space at the bottom -->
+                    <div class="post">
+                        <img class="thumbnail" src="images/Dennis.jpg" alt="post-img">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is the sentence. 
+                                Some more text</p>
+                            <a href="#">Read more...</a>
+                        </div>    
+                    </div>
+                </div>
+                <div>
+                    <!-- Extra div necessary not to have an extra grey space at the bottom -->
+                    <div class="post">
+                        <img class="thumbnail" src="images/Dennis.jpg" alt="post-img">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is the sentence. 
+                                Some more text</p>
+                            <a href="#">Read more...</a>
+                        </div>    
+                    </div>
+                </div>
+                <div>
+                    <!-- Extra div necessary not to have an extra grey space at the bottom -->
+                    <div class="post">
+                        <img class="thumbnail" src="images/Dennis.jpg" alt="post-img">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is the sentence.</p>
+                            <a href="#">Read more...</a>
+                        </div>    
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,7 +167,23 @@
 
     <section class="s2">
         <div class="main-container">
-        Contact
+        <h3 style="text-align: center;">Get In Touch</h3>
+        <form id="contact-form">
+            <label>Name</label>
+            <input class="input-field" type="text" name="name">
+
+            <label>Subject</label>
+            <input class="input-field" type="text" name="subject">
+            
+            <label>Email</label>
+            <input class="input-field" type="text" name="email">
+            
+            <label>Message</label>
+            <textarea class="input-field" name="message" ></textarea>
+
+            <input id="submit-btn" type="submit" value="Send">
+
+        </form>
         </div>
     </section>
 </body>
