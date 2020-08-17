@@ -1,0 +1,14 @@
+Create an emulator:
+
+configure -> AVD manager -> create virtual Device -> Nexus 6 -> Download imgs
+-> Next -> finished
+
+configure -> plugins -> flutter, flutter snippets, dart, dart extensions
+
+start a new flutter project
+
+select Flutter App
+
+select place where to store project dir
+
+

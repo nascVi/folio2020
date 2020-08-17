@@ -1,0 +1,32 @@
+Widgets: Properties Prog with Dart(ARM and x64 machines for optimised web JS)
+*ie class _HomeState extends State<Home>{
+...
+}
+
+try dart @ https://dartpad.dartlang.org
+
+
+No good to mix data types in Lists[]. 
+
+Good practice to indicate: 
+List<data types> like <int>
+
+
+More at https://dart.dev/guides
+
+
+
+What is code obfuscation ?
+The process of modifying an app’s binary to make it harder for humans 
+to understand. Obfuscation hides function and class names in your compiled 
+Dart code, making it difficult for an attacker to reverse engineer your 
+proprietary app.
+
+Android/iOS
+macOS
+Linux/Windows
+web -> as minfied apps are the ~ same.
+
+Firebase for hosting andro app
+
+
